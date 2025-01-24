@@ -71,7 +71,7 @@ public class ViewEmployee extends JFrame implements ActionListener {
         
         setSize(900,700);
         setLocation(300,100);
-        getContentPane().setBackground(Color.white);
+        getContentPane().setBackground(new Color(255,131,122));
         setLayout(null);
         setVisible(true);
         

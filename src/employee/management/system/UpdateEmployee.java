@@ -18,7 +18,7 @@ public class UpdateEmployee extends JFrame implements ActionListener {
     
     UpdateEmployee(String empId){
         this.empId = empId;
-        getContentPane().setBackground(Color.white);
+        getContentPane().setBackground(new Color(163,255,188));
         setLayout(null);
         
         JLabel heading = new JLabel("Update Employee Details");
