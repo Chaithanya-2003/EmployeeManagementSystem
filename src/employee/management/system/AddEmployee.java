@@ -18,7 +18,7 @@ public class AddEmployee extends JFrame implements ActionListener {
     JButton add,back;
     
     AddEmployee(){
-        getContentPane().setBackground(Color.white);
+        getContentPane().setBackground(new Color(163,255,188));
         setLayout(null);
         
         JLabel heading = new JLabel("Add Employee Details");
@@ -149,6 +149,7 @@ public class AddEmployee extends JFrame implements ActionListener {
         add(back);
         
         setSize(900,700);
+        setBackground(Color.yellow);
         setLocation(300,50);
         setVisible(true);
     }
